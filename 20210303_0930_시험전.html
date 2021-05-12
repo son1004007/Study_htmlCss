@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table1{
+            border : 1px solid black;
+        }
+        .table1 td{
+            border : 1px dotted black;
+            padding : 10px;
+            text-align : center;
+        }
+        /* table, td, th{
+            border : 1px solid black;
+            border-collapse : collapse;
+            padding : 10px;
+        } */
+        td,th{
+            border : 1px dotted green;
+        }
+        th{
+            height : 30px;
+            width: 100px;
+        }
+        th{
+            background-color : #eee;
+        }
+        caption{
+            caption-side : bottom;
+        }
+
+        p{
+            width : 15em;
+            height : 3em;
+            border : 1px solid gray;
+
+        }
+        .h{
+            overflow : hidden; /*넘치는 값 숨김*/
+        }
+        .v{
+            overflow : visible; /*넘치는 값 다 출력*/
+        }
+        .s{
+            overflow : scroll; /* 넘치는 값 스크롤 출력*/
+        }
+    </style>
+</head>
+<body>
+        <table class="table1">
+            <tr>
+                <td>울산</td>
+                <td>울산 vs 인천</td>
+            </tr>
+            <tr>
+                <td>울산</td>
+                <td>울산 vs 인천</td>
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <caption>2015 국민 독서실태</caption>
+            <thead>
+                <tr>
+                    <th>    </th>
+                    <th>아동</th>
+                    <th>성인</th>
+                    <th>학생</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>독서율</th>
+                    <td>100%</td>
+                    <td>65.3%</td>
+                    <td>93.2%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <p class ="h">
+            어쩌구
+            저쩌구
+            지지고
+            볶고
+            어쩌구
+            저쩌구
+            지지고
+            볶고
+            어쩌구
+            저쩌구
+            지지고
+            볶고
+            어쩌구
+            저쩌구
+            지지고
+            볶고
+
+        </p>
+        <br>
+        <p class ="v">
+            어쩌구
+            저쩌구
+            지지고
+            볶고
+            어쩌구
+            저쩌구
+            지지고
+            볶고
+            어쩌구
+            저쩌구
+            지지고
+            볶고
+            어쩌구
+            저쩌구
+            지지고
+            볶고
+
+        </p>
+        <br>
+        <p class = "s">
+            어쩌구
+            저쩌구
+            지지고
+            볶고
+            어쩌구
+            저쩌구
+            지지고
+            볶고
+            어쩌구
+            저쩌구
+            지지고
+            볶고
+            어쩌구
+            저쩌구
+            지지고
+            볶고
+        </p>
+</body>
+</html>

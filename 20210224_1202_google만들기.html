@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구글 검색창 만들기</title>
+    <style>
+        /* 브라우저 f12에서 body > style : color 에서 사각형안 칼라를 클릭
+        클릭 후 스포이드 활성화 되면, 화면에 표시되는 색상을 클릭
+        해당 색상 번호를 확인하여 코드에 작성  */
+        #g1{
+            color : #4285f4;
+        }
+        #o1{
+            color : #f44242;
+        }
+        #o2{
+            color : #ea4335;
+        }
+        #g2{
+            color : #fbbc05;
+        }
+        #l{
+            color : #34a853;
+        }
+        #e{
+            color : #ea4335;
+        }
+    </style>
+</head>
+<body style="
+    margin-top: 100px;
+    margin-left: 100px;
+">
+    <!-- f12로 상하 여백을 조절할 수 있다. -->
+    <h1>
+    <span id="g1">G</span>
+    <span id="o1">o</span>
+    <span id="o2">o</span>
+    <span id="g2">g</span>
+    <span id="l">l</span>
+    <span id="e">e</span>
+    </h1>
+
+    <h1>
+        <span style="color: #4285f4;">G</span>
+        <span style="color: #ea4335;">O</span>
+        <span style="color: #fbbc05;">O</span>
+        <span style="color: #4285f4;">G</span>
+        <span style="color: #34a853">L</span>
+        <span style="color: #ea4335;">E</span>
+    </h1>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a:hover{
+            width : 10%;
+            height : 10%;
+            transform: rotate(180deg);
+        }
+        #b:hover{
+            width : 10%;
+            height : 10%;
+            transform: skew(0deg, -30deg);
+        }
+        #c:hover{
+            width : 10%;
+            height : 10%;
+            transform: rotate(90deg) scale(1,3);
+        }
+
+        /* img:hover{
+            border: 1px solid black;
+            border-radius: 10px;
+            transform: rotate(10deg);
+        } */
+        #d:hover{
+            width : 10%;
+            height : 10%;
+            border: 1px solid black;
+            border-radius: 10px;
+            transform: rotate(10deg);
+        }
+
+        /* 교재 문제 */
+        
+        .box {
+            width: 100px;
+            height: 100px;
+            background: green;
+            border: 1px solid black;
+            border-radius: 5px;
+            
+        -webkit-transition: background 1s;
+        -moz-transition: background 1s;
+        -o-transition: background 1s;
+        transition: background 1s;
+        }
+        
+        .box:hover {
+        background:yellow;
+        }
+    </style>
+</head>
+<body>
+    <img src="C:/Users/son10/Pictures/test1.jpg" id="a" width="10%" height="10%">
+    <img src="C:/Users/son10/Pictures/test1.jpg" id="b" width="10%" height="10%">
+    <img src="C:/Users/son10/Pictures/test1.jpg" id="c" width="10%" height="10%">
+    <img src="C:/Users/son10/Pictures/test1.jpg" id="d" width="10%" height="10%">
+
+    
+    <div class="box"></div>
+</body>
+</html>
